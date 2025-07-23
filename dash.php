@@ -199,6 +199,13 @@ if ($data && $data["cod"] == "200") {
             gap: 30px;
 
         }
+        .medipharma{
+            justify-content: flex-start;
+            width: 50px; 
+            height: 50px;
+            object-fit: cover; 
+            padding: 30px;
+        }
 
     
 
@@ -214,6 +221,8 @@ if ($data && $data["cod"] == "200") {
         <?php else: ?>
             
         <div class = "left">
+
+
         <a href="#">Lauches</a>
         <a href="#">Services</a>
         <a href="#">Advertise</a>
