@@ -167,10 +167,20 @@ if ($data && $data["cod"] == "200") {
         }
 
         .move-right {
-            text-align: right; /* Align the text to the right */
-            padding-right: 13in; /* Optional, adds some space from the edge */
+            margin-bottom: -15px;
+            margin-left: 700px;
+            justify-content: flex-end;
+            padding: 14px 0;
+            flex-wrap: wrap;
         }
-     .box-container{
+        
+        .move-left{
+            margin-bottom: -15px;
+            justify-content: flex-start;
+            padding: 14px 0;
+            flex-wrap: wrap;
+        }
+        .box-container{
             width: 550px; 
             height: 260px;
             object-fit: cover; 
@@ -178,32 +188,18 @@ if ($data && $data["cod"] == "200") {
             position: relative; 
             top: 50;
             padding: 30px;
-           
+        
         }
     .sub-nav {
             background-color:#fffcfd;
             display: flex;
             justify-content: flex-end;
             padding: 14px 0;
-            border-bottom: 1px solid #ddd;
             flex-wrap: wrap;
             gap: 30px;
 
         }
 
-    .sub-nav a {
-            color: #0047ab; 
-            text-decoration: none;
-            font-size: 17px;
-            font-weight: 500;
-            transition: color 0.3s ease;
-}
-
-    .sub-nav a:hover {
-    color: #002d72; 
-    text-decoration: underline;     
-
-    }
     
 
     </style>
@@ -216,9 +212,20 @@ if ($data && $data["cod"] == "200") {
             <span>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?></span>
             <a href="logout.php">Logout</a>
         <?php else: ?>
-            <div class="move-right"></div>
+            
+        <div class = "left">
+        <a href="#">Lauches</a>
+        <a href="#">Services</a>
+        <a href="#">Advertise</a>
+        <a href="#">Assets for Sale</a>
+        <a href="#">Contact</a>
+        
+        </div>
+        <div class="move-right"></div>
             <a href="register.php">Sign Up</a>
             <a href="login.php">Login</a>
+            </div>
+            
         <?php endif; ?>
     </div>
     
@@ -227,15 +234,8 @@ if ($data && $data["cod"] == "200") {
 
 <div class="sub-nav">
     <div></div>
-    <a href="#">Lauches</a>
-    <a href="#">Product</a>
-    <a href="#">New</a>
-    <a href="#">Forums</a>
-    <a href="#">Advertise</a>
-    <a href="#">Assets for Sale</a>
-    <a href="#">Deals</a>
-    <a href="#">Digital</a>
-  </div>
+
+    </div>
         </header>
 
     </div>
