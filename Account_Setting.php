@@ -65,7 +65,8 @@ if (isset($_POST['change_password'])) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Account Settings</title>
+    <title>Account Settings
+    </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style>
         body {
@@ -249,10 +250,38 @@ if (isset($_POST['change_password'])) {
         position: relative;
         left: -20px;
         }
+        .bi-arrow-bar-left{
+        display: flex;
+        justify-content: left;
+        width:  16px;
+        height: 16px;
+        float: left;
+        position: relative;
+        left: -20px;
+        }
+        .bi-eye{
+        display: flex;
+        justify-content: left;
+        width:  16px;
+        height: 16px;
+        float: left;
+        position: relative;
+        left: -20px;
+        }
+        .bi-box-arrow-in-left{
+        display: flex;
+        justify-content: left;
+        width:  16px;
+        height: 16px;
+        float: left;
+        position: relative;
+        left: -20px;
+        }
     </style>
 </head>
 <body>
     <div class="dashboard">
+
         <!-- Sidebar -->
         <aside class="sidebar">
             <div class="user">
@@ -277,14 +306,27 @@ if (isset($_POST['change_password'])) {
                 </form>
             </div>
             <ul class="menu">
-                <li><a href="index.php" style="color: white; text-decoration: none;">Dashboard</a></li>
-                <li>View Orders</li>
+                <li><a href="index.php" style="color: white; text-decoration: none;">Dashboard</a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-arrow-bar-left" viewBox="0 0 16 16">
+                 <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5"/>
+                </svg>
+            </li>
+                <li>View Orders
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-eye" viewBox="0 0 16 16">
+                <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"/>
+                <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"/>
+                </svg>
+                </li>
                 <li><a href="Account_settings.php" style="color: white; text-decoration: none;">Account Settings</a>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-gear" viewBox="0 0 16 16">
                 <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"/>
                 <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z"/>
                 </svg></li>
-                <li><a href="dash.php" style="color: white; text-decoration: none;">Logout</a></li>
+                <li><a href="dash.php" style="color: white; text-decoration: none;">Logout</a>
+                <svg xmlns="http://www.w3.org/2000/svg"fill="currentColor" class="bi-box-arrow-in-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z"/>
+                        <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
+                        </svg></li>
             </ul>
         </aside>
 
