@@ -156,7 +156,8 @@ if ($data && $data["cod"] == "200") {
         }
 
         .clock-date-box {
-            background-color: #333;
+            background: #020024;
+            background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
             color: white;
             border-radius: 12px;
             padding: 20px;
@@ -177,7 +178,7 @@ if ($data && $data["cod"] == "200") {
             position: relative; 
             top: 50;
             padding: 30px;
-            box-shadow: 0 4px 10px;
+           
         }
     .sub-nav {
             background-color:#fffcfd;
@@ -293,7 +294,7 @@ if ($data && $data["cod"] == "200") {
 <div class="dashboard-content">
     <!-- box -->
     <div class="BOX">
-    <img src="ezycourse.png" alt="ezycourse.png" style="width: 750px; height: 350px; object-fit: cover; border-radius: 8px;">';
+    <img src="ezycourse.png" alt="ezycourse.png" style="width: 750px; height: 350px; object-fit: cover; border-radius: 8px;">
     </div>
         <div class = "nav-container">
 
@@ -302,7 +303,7 @@ if ($data && $data["cod"] == "200") {
     <!-- Box -->
     <div class="box-container">
     <img src="face wash.avif" alt="face wash.avif" style="width: 500px; height: 250px; object-fit: cover; border-radius: 8px; position margin-right: 800px;position: relative; left: 750px;relative; top: -770px;">
-    <img src="maps.png" alt="maps.png" style="width: 500px; height: 332px; object-fit: cover; border-radius: 8px; position margin-right: 700px;position: relative; left: 715px;relative; top: -710px; box-shadow: 0 4px 10px #0056b3; position: relative;  height: 332px; width: 550px; ">
+    <img src="beauty-in-the-beat.jpg" alt="beauty-in-the-beat.jpg" style="width: 500px; height: 332px; object-fit: cover; border-radius: 8px; position margin-right: 700px;position: relative; left: 715px;relative; top: -710px; box-shadow: 0 4px 10px #0056b3; position: relative;  height: 332px; width: 550px; ">
 
 
         <h2></h2>
@@ -321,7 +322,3 @@ if ($data && $data["cod"] == "200") {
 
 </body>
 </html>
-
-
-
-
