@@ -85,7 +85,8 @@ if ($data && $data["cod"] == "200") {
             display: flex;
             gap: 15px;
             padding: 20px;
-            background-color: #4c3c4c;
+            background: #214b63;
+            background: linear-gradient(90deg,rgba(33, 75, 99, 1) 100%, rgba(9, 9, 121, 1) 46%, rgba(0, 212, 255, 1) 73%);
         }
 
         .nav-links a {
@@ -98,10 +99,13 @@ if ($data && $data["cod"] == "200") {
         }
 
         .nav-links a:hover {
-            background-color: #0056b3;
+            background: #5ac6cc;
+            background: linear-gradient(90deg,rgba(90, 198, 204, 1) 100%, rgba(36, 196, 201, 1) 46%, rgba(0, 212, 255, 1) 73%);
         }
 
         .dashboard-content {
+            background: #020024;
+            background: linear-gradient(90deg,rgba(2, 0, 36, 1) 13%, rgba(14, 14, 56, 1) 36%, rgba(70, 220, 250, 1) 100%);
             padding: 40px;
             display: flex;
             gap: 30px;
@@ -111,6 +115,8 @@ if ($data && $data["cod"] == "200") {
         }
 
         .weather-widget {
+            background: #EEAECA;
+            background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
             padding: 20px;
             border-radius: 12px;
             width: 300px;
@@ -118,6 +124,7 @@ if ($data && $data["cod"] == "200") {
         }
 
         .current-temp {
+            
             font-size: 36px;
             margin-bottom: 10px;
         }
@@ -130,6 +137,7 @@ if ($data && $data["cod"] == "200") {
         }
 
         .dot {
+
             width: 12px;
             height: 12px;
             background-color: white;
@@ -138,6 +146,7 @@ if ($data && $data["cod"] == "200") {
         }
 
         .forecast {
+
             display: flex;
             justify-content: space-around;
             gap: 10px;
@@ -156,6 +165,7 @@ if ($data && $data["cod"] == "200") {
         }
 
         .clock-date-box {
+            
             background: #020024;
             background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
             color: white;
@@ -168,7 +178,7 @@ if ($data && $data["cod"] == "200") {
 
         .move-right {
             margin-bottom: -15px;
-            margin-left: 700px;
+            margin-left: 500px;
             justify-content: flex-end;
             padding: 14px 0;
             flex-wrap: wrap;
@@ -181,6 +191,7 @@ if ($data && $data["cod"] == "200") {
             flex-wrap: wrap;
         }
         .box-container{
+            
             width: 550px; 
             height: 260px;
             object-fit: cover; 
@@ -191,23 +202,15 @@ if ($data && $data["cod"] == "200") {
         
         }
     .sub-nav {
-            background-color:#fffcfd;
-            display: flex;
-            justify-content: flex-end;
-            padding: 14px 0;
-            flex-wrap: wrap;
-            gap: 30px;
+        background-color: #F0E9F5;
+        display: flex;
+        justify-content: flex-end;
+        padding: 14px 0;
+        flex-wrap: wrap;
+        gap: 30px;
 
         }
-        .medipharma{
-            justify-content: flex-start;
-            width: 50px; 
-            height: 50px;
-            object-fit: cover; 
-            padding: 30px;
-        }
 
-    
 
     </style>
 </head>
@@ -219,10 +222,8 @@ if ($data && $data["cod"] == "200") {
             <span>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?></span>
             <a href="logout.php">Logout</a>
         <?php else: ?>
-            
+            <img src="logo.png" alt="Logo" style="width: 70px; height: 70px; object-fit: cover; margin-right: 20px;">
         <div class = "left">
-
-
         <a href="#">Lauches</a>
         <a href="#">Services</a>
         <a href="#">Advertise</a>
@@ -313,20 +314,11 @@ if ($data && $data["cod"] == "200") {
     <div class="box-container">
     <img src="face wash.avif" alt="face wash.avif" style="width: 500px; height: 250px; object-fit: cover; border-radius: 8px; position margin-right: 800px;position: relative; left: 750px;relative; top: -770px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
     <img src="beauty-in-the-beat.jpg" alt="beauty-in-the-beat.jpg" style="width: 500px; height: 332px; object-fit: cover; border-radius: 8px; position margin-right: 700px;position: relative; left: 715px;relative; top: -710px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); position: relative;  height: 332px; width: 550px; ">
-
-
-        <h2></h2>
-        <p></p>
-        <h2></h2>
-        <p></p>
-        <style>
     
         </style>
     </div>
 
-
-
-</div>
+    </div>
 
 
 </body>
