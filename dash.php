@@ -302,8 +302,8 @@ if ($data && $data["cod"] == "200") {
 
     <!-- Box -->
     <div class="box-container">
-    <img src="face wash.avif" alt="face wash.avif" style="width: 500px; height: 250px; object-fit: cover; border-radius: 8px; position margin-right: 800px;position: relative; left: 750px;relative; top: -770px;">
-    <img src="beauty-in-the-beat.jpg" alt="beauty-in-the-beat.jpg" style="width: 500px; height: 332px; object-fit: cover; border-radius: 8px; position margin-right: 700px;position: relative; left: 715px;relative; top: -710px; box-shadow: 0 4px 10px #0056b3; position: relative;  height: 332px; width: 550px; ">
+    <img src="face wash.avif" alt="face wash.avif" style="width: 500px; height: 250px; object-fit: cover; border-radius: 8px; position margin-right: 800px;position: relative; left: 750px;relative; top: -770px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+    <img src="beauty-in-the-beat.jpg" alt="beauty-in-the-beat.jpg" style="width: 500px; height: 332px; object-fit: cover; border-radius: 8px; position margin-right: 700px;position: relative; left: 715px;relative; top: -710px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); position: relative;  height: 332px; width: 550px; ">
 
 
         <h2></h2>
